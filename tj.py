@@ -23,6 +23,7 @@ def main(*args):
     """
     获取指定目录下的指定格式的文件数量及行数
     @command: python tj.py /home/test/ py txt
+    @command: python tj.py /home/test.py py 兼容对单个文件进行分析
     @param: args 直接执行文件时的 sys.argv
     """
     assert len(sys.argv) >= 3, u'''Syntax Error, expect at least 2 args, %d given \n
